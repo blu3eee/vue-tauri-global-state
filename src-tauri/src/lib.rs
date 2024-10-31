@@ -1,5 +1,5 @@
 use std::sync::Mutex;
-use tauri::{ window, Builder, Emitter, Manager, State, Window };
+use tauri::{ Builder, Emitter, Manager, State, Window };
 
 struct AppData {
   welcome_message: String,
